@@ -1,0 +1,54 @@
+/* .socials */
+
+.socials {
+  width: 300px;
+  height: 40px;
+  vertical-align: baseline;
+  padding-top: 3px;
+}
+
+.socials ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  pointer-events: none; /* (fading siblings effect) нужно для игнорирования hover между li */
+}
+
+.socials ul li {
+  margin: 0 17px;
+  transition: opacity .25s ease-out;
+  pointer-events: auto; /* (fading siblings effect) нужно для работы hover между li */
+}
+
+/* fading siblings effect  ===> */ 
+.socials ul:hover > li {
+  opacity: .5;
+}
+
+.socials ul:hover > li:hover {
+  opacity: 1;
+}
+/* <===  fading siblings effect */
+
+.socials ul li:first-child {
+  margin-left: 0;
+}
+.socials ul li:last-child {
+  margin-right: 0;
+}
+
+.socials ul li a img {
+  height: 20px;
+  width: auto;
+}
+
+.socials ul li a.twitter img {
+  width: 25px;
+  height: 20px;
+}
+
+.socials ul li a.youtube img {
+  margin-top: -2px;
+  width: 24px;
+  height: 24px;
+}
