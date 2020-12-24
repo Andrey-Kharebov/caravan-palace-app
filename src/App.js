@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 
 // Images 
 import mainImage from './assets/home-title.svg';
@@ -26,6 +27,7 @@ function App() {
           <img src={ albumImage } alt='albumImage'></img>
         </div>
       </section>
+      <Footer />
     </div>
   );
 }

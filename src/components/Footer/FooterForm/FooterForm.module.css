@@ -1,0 +1,105 @@
+.footerForm {
+  padding-top: 35px;
+}
+
+.footerForm .formWrap {
+  max-width: 295px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+
+.footerForm .formWrap h2 {
+  font-size: 22px;
+  height: 30px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 33px;
+}
+
+.footerForm .formWrap form {
+  height: 220px;
+}
+
+.footerForm .formWrap form > div {
+  height: 50px;
+}
+
+.footerForm .formWrap form .formRow {
+  margin: 20px 0;
+}
+
+.footerForm .formWrap form .formRow input {
+  background: none;
+  border: none;
+  border-top: none!important;
+  border-bottom: 1px solid #999;
+  height: 50px;
+  width: 100%;
+  color: #3b121c;
+  letter-spacing: .3px;
+  border-radius: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.footerForm .formWrap form .formRow input::placeholder{
+  color: #999;
+}
+
+.footerForm .formWrap form .formRow select {
+  background: none;
+  border: 0;
+  border-radius: 0!important;
+  width: 100%;
+  height: 50px;
+  padding: 0 20px 0 0;
+  border-bottom: 1px solid #999;
+  color: #999;
+}
+
+
+/* .formSubmit */
+
+.footerForm .formWrap form .formSubmit {
+  margin-top: 39px;
+}
+
+.footerForm .formWrap form .formSubmit .subscribeButton {
+  position: relative;
+  margin-top: 11px;
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 50px;
+  background: #fff;
+  color: #3b121c;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  /* letter-spacing: 1.1px; */
+  text-align: left;
+  padding-left: 30px;
+  transition: all .25s ease-out;
+}
+
+.footerForm .formWrap form .formSubmit .subscribeButton:hover {
+  background: hsla(0, 0%, 100%, .1);
+  color: #fff;
+}
+
+.footerForm .formWrap form .formSubmit .subscribeButton:after {
+  position: absolute;
+  content: "";
+  top: 19px;
+  right: 25px;
+  width: 12px;
+  height: 9px;
+  display: block;
+  background: url(../../../assets/arrow-red.svg) 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+
+.footerForm .formWrap form .formSubmit .subscribeButton:hover:after {
+  background: url(../../../assets/arrow-yellow.svg) 0 0 no-repeat;
+} 

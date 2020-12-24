@@ -1,0 +1,42 @@
+.footerNavMenu {
+  position: relative;
+  box-sizing: border-box;
+  background: #fff;
+  color: black;
+  padding-top: 95px;
+  padding-left: 10%;
+}
+
+.footerNavMenu .footerLogo {
+  /* border: 1px solid green; */
+}
+
+.footerNavMenu .footerLogo {
+  width: 130px;
+  height: 34px;
+}
+
+.footerNavMenu ul.footerMenu {
+  height: 245px;
+  margin-top: 48px;
+  list-style: none;
+}
+
+.footerNavMenu ul.footerMenu li {
+  max-height: 25px;
+  height: 100%;
+  margin: 14px 0;
+}
+
+.footerNavMenu ul.footerMenu li a {
+  font-size: 14px;
+  color: #3b121c;
+  text-decoration: none;
+  transition: all .15s ease-out;
+  letter-spacing: .3px;
+}
+
+.footerNavMenu ul.footerMenu li a:hover {
+  opacity: .5;
+}
+

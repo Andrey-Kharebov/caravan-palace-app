@@ -1,0 +1,24 @@
+/* .footerFollow */
+
+.footerFollow {
+  position: absolute;
+  width: 444px;
+  height: 203px;
+  bottom: 0;
+  left: 52%;
+  background: #ffd312;
+  padding: 50px 10%;
+}
+
+.footerFollow h3 {
+  font-size: 21px;
+  letter-spacing: .3px;
+  font-weight: 500;
+  color: #3b121c;
+}
+
+.footerFollow > div {
+  margin-top: -25px;
+}
+
+
