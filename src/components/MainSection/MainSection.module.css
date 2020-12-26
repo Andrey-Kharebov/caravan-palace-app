@@ -1,6 +1,5 @@
 .mainSection {
   min-height: 500px;
-  height: 100%;
-  margin-bottom: 128px;
+  height: calc(100vh - 100px);
 }
 

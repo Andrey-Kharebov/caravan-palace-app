@@ -272,8 +272,12 @@ function FooterForm() {
             <button className={ classes.subscribeButton }>
               Subscribe
             </button>
-          </div>
+          </div>          
         </form>
+        <div className={ classes.authorContacts}>
+          <a href='https://www.caravanpalace.com/' target='_blank' rel='noreferrer'>Original Website</a>
+          <a href='https://vk.com/id_andreykharebov' target='_blank' rel='noreferrer'><i className='fab fa-vk'></i></a>
+        </div>
       </div>
     </div>
   );

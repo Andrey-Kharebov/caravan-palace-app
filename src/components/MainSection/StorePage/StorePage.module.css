@@ -1,0 +1,83 @@
+.storePage {
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+  padding-top: 10%;
+}
+
+.storePage .content {
+  width: 60%;
+  height: 100%;
+  padding-right: 8%;
+}
+
+.storePage .content .storeImage {
+  margin-top: 100px;
+  height: auto;
+}
+
+.storePage .content .storeImage img {
+  height: auto;
+}
+
+.storePage .storeOptions {
+  width: 40%;
+}
+
+.storePage .storeOptions .links {
+  margin-top: 116px;
+  height: 140px;
+}
+
+.storePage .storeOptions .links ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.storePage .storeOptions .links ul li {
+  width: 250px;
+  height: 50px;
+}
+
+.storePage .storeOptions .links ul li:last-child {
+  margin-top: 30px;
+}
+
+.storePage .storeOptions .links ul li a button {
+  position: relative;
+  border: none;
+  border-radius: 50px;
+  background: hsla(0, 0%, 100%, .1);
+  cursor: pointer;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-align: left;
+  padding-left: 30px;
+  transition: all .25s ease-out;
+}
+
+
+.storePage .storeOptions .links ul li a button:hover {
+  background: #fff;
+  color: #3b121c;
+}
+
+
+.storePage .storeOptions .links ul li a button:after {
+  position: absolute;
+  content: "";
+  top: 19px;
+  right: 25px;
+  width: 12px;
+  height: 9px;
+  display: block;
+  background: url(../../../assets/arrow-yellow.svg) 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+
+
+.storePage .storeOptions .links ul li a button:hover:after {
+  background: url(../../../assets/arrow-red.svg) 0 0 no-repeat;
+}

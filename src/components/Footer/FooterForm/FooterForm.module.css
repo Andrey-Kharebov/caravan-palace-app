@@ -77,7 +77,6 @@
   cursor: pointer;
   font-size: 14px;
   font-weight: 500;
-  /* letter-spacing: 1.1px; */
   text-align: left;
   padding-left: 30px;
   transition: all .25s ease-out;
@@ -103,3 +102,32 @@
 .footerForm .formWrap form .formSubmit .subscribeButton:hover:after {
   background: url(../../../assets/arrow-yellow.svg) 0 0 no-repeat;
 } 
+
+
+/* .authorContacts */
+
+.footerForm .authorContacts {
+  margin-top: 30px;
+  height: 70px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footerForm .authorContacts a {
+  text-decoration: none;
+  color: #999;
+  transition: all .25s ease-out;
+}
+
+.footerForm .authorContacts a:hover {
+  color: #fff;
+}
+
+.footerForm .authorContacts a i {
+  font-size: 20px;
+}
+
+
+
