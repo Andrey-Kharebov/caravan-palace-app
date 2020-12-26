@@ -1,0 +1,22 @@
+.tourPage {
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.tourPage .listPlate {
+  border: 1px solid #fff;
+  margin-top: 90px;
+  margin-bottom: -58px;
+  background-color: rgb(59, 18, 28);
+  color: rgb(229, 192, 16);
+  fill: rgb(229, 192, 16);
+  font-family: Kanit, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-shadow: none;
+  text-transform: none;
+  max-height: 560px;
+  height: 100%;
+  overflow-y: scroll;
+}

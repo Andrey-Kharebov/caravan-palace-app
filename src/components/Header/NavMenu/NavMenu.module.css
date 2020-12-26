@@ -29,6 +29,53 @@
   color: #ffd312;
 }
 
+/* .activePage */
+
+.navMenu ul li.activePage a {
+  position: relative;
+  color: #ffd312;
+}
+
+.navMenu ul li.activePage ul li a {
+  color: #fff;
+}
+
+.navMenu ul li.activePage a:before {
+  content: "";
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  margin-left: -2px;
+  border-radius: 50%;
+  width: 4px;
+  height: 4px;
+  display: block;
+  background: #ffd312;
+}
+
+.navMenu ul li.activePage:nth-child(2) a:after {
+  content: "";
+  position: absolute;
+  top: 7px;
+  right: -20px;
+  width: 10px;
+  height: 7px;
+  display: block;
+  background: url(../../../assets/dropdown-yellow.svg) 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+
+.navMenu ul li.activePage ul li a::before {
+  display: none;
+}
+
+.navMenu ul li.activePage:nth-child(2) ul li a:after {
+  display: none;
+}
+
+
+/* activePage finsished */
+
 .navMenu ul li:first-child {
   margin-left: 0;
 }

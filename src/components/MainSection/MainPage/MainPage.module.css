@@ -1,0 +1,72 @@
+.mainPage {
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.mainPage .content {
+  margin-top: 123px;
+  width: 60%;
+  padding-right: 8%;
+}
+
+.mainPage .content p {
+  margin-top: 6px;
+  color: #fff;
+  opacity: .6;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2.2px;
+  font-size: 12px;
+}
+
+.mainPage .content .mainImage {
+  margin-top: 26px;
+}
+
+.mainPage .content a .orderButton {
+  position: relative;
+  margin-top: 11px;
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 50px;
+  background: hsla(0, 0%, 100%, .1);
+  cursor: pointer;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1.1px;
+  text-align: left;
+  padding-left: 30px;
+  transition: all .25s ease-out;
+}
+
+.mainPage .content a .orderButton:hover {
+  background: #fff;
+  color: #3b121c;
+}
+
+.mainPage .content a .orderButton:after {
+  position: absolute;
+  content: "";
+  top: 19px;
+  right: 25px;
+  width: 12px;
+  height: 9px;
+  display: block;
+  background: url(../../../assets/arrow-yellow.svg) 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+
+.mainPage .content a .orderButton:hover:after {
+  background: url(../../../assets/arrow-red.svg) 0 0 no-repeat;
+}
+
+
+/* .picture */
+
+.mainPage .picture {
+  margin-top: 125px;
+  width: 40%;
+}
