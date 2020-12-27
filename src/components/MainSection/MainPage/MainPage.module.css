@@ -82,3 +82,26 @@
   height: 460px;
   width: 460px;
 }
+
+
+@media (max-width: 1280px) {
+  .mainPage {
+    padding: 0 7%;
+    padding-top: 10%;
+  }
+
+  .mainPage .content {
+    margin-top: -25px;
+  }
+
+  .mainPage .picture {
+    max-width: 440px;
+    max-height: 440px;
+    margin-top: -85px;
+  }
+
+  .mainPage .picture img {
+    width: 100%;
+    height: auto;
+  }
+}

@@ -81,3 +81,10 @@
 .storePage .storeOptions .links ul li a button:hover:after {
   background: url(../../../assets/arrow-red.svg) 0 0 no-repeat;
 }
+
+@media (max-width: 1280px) {
+  .storePage {
+    padding: 0 7%;
+    padding-top: 7.6%;
+  }
+}
