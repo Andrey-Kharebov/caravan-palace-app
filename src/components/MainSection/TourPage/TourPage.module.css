@@ -36,3 +36,11 @@
     padding-right: 7%;
   }
 }
+
+@media (max-width: 980px) {
+  .tourPage .rigthStatue {
+    right: -33%;
+    height: 97%;
+    width: 800px;
+  }
+}

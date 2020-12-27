@@ -23,7 +23,7 @@
 }
 
 
-@media (max-width: 1280px) {
+@media (min-width: 981px) and (max-width: 1280px) {
   .footerFollow {
     width: 265px;
     height: 243px;
@@ -54,8 +54,30 @@
   }
 }
 
-@media (max-width: 1050px) {
+@media (min-width: 981px) and (max-width: 1050px) {
   .footerFollow {
     left: 60%;
+  }
+}
+
+@media (max-width: 980px) {
+  .footerFollow {
+    max-height: 185px;
+    height: 100%;
+    top: 78%;
+    left: 16%;
+    max-width: 1000px;
+    padding: 46px 16%;
+  }
+
+  .footerFollow div {
+    width: 300px;
+  }
+  
+  .footerFollow div ul {
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
   }
 }

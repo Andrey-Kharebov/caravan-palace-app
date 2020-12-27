@@ -105,3 +105,25 @@
   width: 378px;
   overflow: hidden;
 }
+
+@media (max-width: 1280px) {
+  .videoPage {
+    padding: 0 7%;
+  }
+}
+
+@media (max-width: 980px) {
+  .videoPage {
+    padding: 0 7%;
+  }
+
+  .videoPage .videoPlate {
+    width: 100%;
+    height: auto;
+  }
+
+  .videoPage .videoPlate .player {
+    width: 86vw;
+    height: 48.375vw;
+  }
+}

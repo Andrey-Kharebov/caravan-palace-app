@@ -105,3 +105,33 @@
     height: auto;
   }
 }
+
+@media (max-width: 980px) {
+  .mainPage {
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    padding-top: 90px;
+    padding-bottom: 50px;
+  }
+
+  .mainPage .content {
+    margin-top: 1px;
+    padding-right: 0;
+    width: 100%;
+    max-width: 550px
+  }
+
+  .mainPage .picture {
+    max-width: 550px;
+    width: 100%;
+    margin-top: 90px;
+    margin-bottom: 111px;
+  }
+
+  .mainPage .picture img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+}

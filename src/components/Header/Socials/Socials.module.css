@@ -52,3 +52,16 @@
   width: 24px;
   height: 24px;
 }
+
+@media screen and (min-width: 768px) and (max-width: 980px) {
+  .socials ul {
+    max-width: 250px;
+    width: 100%;
+  }
+
+  .socials ul li {
+    margin: 0 12px;
+    height: 20px;
+    width: auto;
+  } 
+}

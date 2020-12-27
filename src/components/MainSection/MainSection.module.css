@@ -2,3 +2,10 @@
   min-height: 500px;
   height: calc(100vh - 100px);
 }
+
+@media (max-width: 980px) {
+  .mainSection {
+    min-height: auto;
+    height: auto;
+  }
+}
