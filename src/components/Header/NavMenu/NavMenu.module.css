@@ -148,3 +148,63 @@
   content: '';
   background: none;
 }
+
+@media (max-width: 768px) {
+  .navMenu {
+    display: none;
+  }
+
+  .navMenu.burgered {
+    position: absolute;
+    z-index: 2;
+    top: 114px;
+    left: 0;
+    width: 100%;
+    display: block;
+    padding-left: 16%;
+  }
+
+  .navMenu.burgered ul {
+    width: 200px;
+    height: 153px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .navMenu.burgered ul li {
+    height: 25px;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navMenu.burgered ul li.activePage a:before {
+    display: none;
+  }
+
+  .navMenu.burgered ul li:nth-child(2) {
+    margin-top: -63px;
+  }
+
+  .navMenu.burgered ul li:nth-child(2):hover ul {
+    width: 180px;
+    top: initial;
+  }
+
+  .navMenu.burgered ul li:nth-child(2) a:after {
+    display: none;
+  }
+
+  .navMenu.burgered ul li:nth-child(2) ul {
+    display: block;
+    width: 180px;
+    height: 55px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  .navMenu.burgered ul li:nth-child(2) ul li a {
+    opacity: 1;
+  }
+}

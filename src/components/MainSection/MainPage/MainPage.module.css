@@ -135,3 +135,11 @@
     margin: 0 auto;
   }
 }
+
+@media (max-width: 768px) {
+  .mainPage {
+    padding-top: 110px;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+}

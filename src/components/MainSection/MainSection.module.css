@@ -9,3 +9,9 @@
     height: auto;
   }
 }
+
+@media (max-width: 768px) {
+  .mainSection.burgered {
+    display: none;
+  }
+}

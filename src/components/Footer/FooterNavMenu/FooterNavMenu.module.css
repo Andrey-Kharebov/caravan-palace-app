@@ -54,3 +54,21 @@
     width: auto;
   }
 }
+
+@media (max-width: 768px) {
+  .footerNavMenu.burgered {
+    position: absolute;
+    height: 200px;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0);
+  }
+
+  .footerNavMenu.burgered .footerLogo,
+  .footerNavMenu.burgered .footerMenu {
+    display: none;
+  }
+
+  .footerNavMenu.burgered div:last-child {
+    top: 15px;
+  }
+}

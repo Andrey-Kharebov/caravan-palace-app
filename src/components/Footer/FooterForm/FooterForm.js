@@ -1,9 +1,9 @@
 import React from 'react';
 import classes from './FooterForm.module.css';
 
-function FooterForm() {
+function FooterForm(props) {
   return (
-    <div className={classes.footerForm}>
+    <div className={ props.activeBurger ? `${classes.footerForm} ${classes.burgered}` : classes.footerForm }>
       <div className={classes.formWrap}>
         <h2>Subscribe to our newsletter</h2>
         <form>

@@ -5,9 +5,9 @@ import FooterFollow from './FooterFollow/FooterFollow';
 import { NavLink } from 'react-router-dom';
 
 
-function FooterNavMenu() {
+function FooterNavMenu(props) {
   return (
-    <div className={ classes.footerNavMenu }>
+    <div className={ props.activeBurger ? `${classes.footerNavMenu} ${classes.burgered}` : classes.footerNavMenu }>
       <div className={ classes.footerLogo }>
         <img src={ footerLogoRed } alt='Caravan Palace'></img>
       </div>

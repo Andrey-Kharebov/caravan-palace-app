@@ -143,3 +143,8 @@
   }
 }
 
+@media (max-width: 768px) {
+  .footerForm.burgered {
+    display: none;
+  }
+}

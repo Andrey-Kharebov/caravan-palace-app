@@ -4,11 +4,11 @@ import FooterForm from './FooterForm/FooterForm';
 import FooterNavMenu from './FooterNavMenu/FooterNavMenu';
 
 
-function Footer() {
+function Footer(props) {
   return (
     <footer className={ classes.footer }>
-      <FooterNavMenu />
-      <FooterForm />
+      <FooterNavMenu activeBurger={ props.activeBurger } />
+      <FooterForm activeBurger={ props.activeBurger } />
     </footer>
   )
 }

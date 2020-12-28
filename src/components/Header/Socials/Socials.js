@@ -18,7 +18,7 @@ import spotifyRed from '../../../assets/socials/spotify-red.svg';
 
 function Socials(props) {
   return (
-    <div className={ classes.socials }>
+    <div className={ props.activeBurger ? `${classes.socials} ${classes.closed}` : classes.socials }>
       <ul>
         <li><a className={ classes.facebook } href='https://www.facebook.com/CaravanPalace' target='_blank' rel="noreferrer"><img src={ props.position === 'footer' ? facebookRed : facebook } alt='facebook'></img></a></li>
         <li><a className={ classes.instagram} href='https://www.instagram.com/caravanpalace' target='_blank' rel="noreferrer"><img src={ props.position === 'footer' ? instagramRed : instagram } alt='instagram'></img></a></li>

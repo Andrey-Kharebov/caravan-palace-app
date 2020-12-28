@@ -2,9 +2,9 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import classes from './NavMenu.module.css';
 
-function NavMenu({ pathname }) {
+function NavMenu({ pathname, activeBurger }) {
   return (
-    <nav className={ classes.navMenu }>
+    <nav className={ activeBurger ? `${classes.navMenu} ${classes.burgered}` : classes.navMenu }>
       <ul>
         <li className={ pathname === '/tour' ? classes.activePage : null }>
           <NavLink to='/tour'>Tour</NavLink>

@@ -8,9 +8,9 @@ import StorePage from './StorePage/StorePage';
 
 
 
-function MainSection() {
+function MainSection(props) {
   return (
-    <section className={ classes.mainSection }>
+    <section className={ props.activeBurger ? `${classes.mainSection} ${classes.burgered}` : classes.mainSection }>
       <Switch>
         <Route path='/' exact><MainPage /></Route>
         <Route path='/tour' exact><TourPage /></Route>
