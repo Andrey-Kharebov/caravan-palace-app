@@ -44,3 +44,9 @@
     width: 800px;
   }
 }
+
+@media (max-width: 660px) {
+  .tourPage .rigthStatue {
+    display: none;
+  }
+}

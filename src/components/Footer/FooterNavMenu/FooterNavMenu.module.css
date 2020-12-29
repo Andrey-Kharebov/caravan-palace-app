@@ -72,3 +72,15 @@
     top: 15px;
   }
 }
+
+@media (max-width: 480px) {
+  .footerNavMenu.burgered div:last-child {
+    height: 240px;
+    top: -40px;
+  }
+
+  .footerNavMenu.burgered div:last-child ul {
+    height: 100px;
+    margin-top: 10px;
+  }
+}

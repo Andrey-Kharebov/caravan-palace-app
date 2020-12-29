@@ -1,9 +1,15 @@
 import React from 'react';
+import { withRouter } from 'react-router-dom';
 import classes from './FooterForm.module.css';
 
 function FooterForm(props) {
   return (
-    <div className={ props.activeBurger ? `${classes.footerForm} ${classes.burgered}` : classes.footerForm }>
+    <div className={ props.activeBurger 
+      ? `${classes.footerForm} ${classes.burgered}` 
+      : props.location.pathname === '/tour'
+        ? `${classes.footerForm} ${classes.blacked}` 
+        : classes.footerForm
+    }>
       <div className={classes.formWrap}>
         <h2>Subscribe to our newsletter</h2>
         <form>
@@ -283,4 +289,4 @@ function FooterForm(props) {
   );
 }
 
-export default FooterForm;
+export default withRouter(FooterForm);

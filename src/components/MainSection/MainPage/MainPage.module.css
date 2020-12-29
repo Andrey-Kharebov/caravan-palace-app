@@ -143,3 +143,9 @@
     padding-right: 8%;
   }
 }
+
+@media (max-width: 480px) {
+  .mainPage {
+    padding-top: 90px;
+  }
+}
